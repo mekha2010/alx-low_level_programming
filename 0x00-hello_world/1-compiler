@@ -1,2 +1,4 @@
 #!/bin/bash
+CFILE="main.c"
+OUTFILE="${CFILE%.c}.o"
 gcc -c $CFILE -o $OUTFILE
